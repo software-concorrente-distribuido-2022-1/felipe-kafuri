@@ -3,6 +3,7 @@ import threading
 
 from base_server import BaseServer
 
+
 class Box:
     def __init__(self):
         self.items = 0
