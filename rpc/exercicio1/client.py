@@ -3,5 +3,5 @@ import json
 
 proxy = xmlrpc.client.ServerProxy("http://localhost:8000/")
 
-message = proxy.consume(json.dumps({ 'salary': 3000.00, 'role': 'OPR', 'name': 'Guilherme'}))
+message = proxy.consume(json.dumps({ 'salary': 3000.00, 'role': 'OPR', 'name': 'Sergio'}))
 print(message)

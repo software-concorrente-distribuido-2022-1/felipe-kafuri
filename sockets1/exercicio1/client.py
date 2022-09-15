@@ -24,5 +24,5 @@ class BaseClient:
         self.client_socket.close() 
 
 client = BaseClient(3001, 1024)
-response = client.send_message(json.dumps({ 'salary': 3000.00, 'role': 'OPR', 'name': 'Guilherme'}))
+response = client.send_message(json.dumps({ 'salary': 3000.00, 'role': 'OPR', 'name': 'Sergio'}))
 print(response)
